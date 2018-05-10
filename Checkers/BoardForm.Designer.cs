@@ -246,7 +246,8 @@ namespace Checkers
             this.tableLayoutPanel1.Controls.Add(this.pictureBox61, 5, 7);
             this.tableLayoutPanel1.Controls.Add(this.pictureBox62, 6, 7);
             this.tableLayoutPanel1.Controls.Add(this.pictureBox63, 7, 7);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 27);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(32, 64);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 8;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
@@ -257,7 +258,7 @@ namespace Checkers
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(360, 360);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(960, 858);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // pictureBox0
@@ -266,8 +267,8 @@ namespace Checkers
             this.pictureBox0.Location = new System.Drawing.Point(0, 0);
             this.pictureBox0.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox0.Name = "pictureBox0";
-            this.pictureBox0.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox0.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox0.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox0.Size = new System.Drawing.Size(120, 107);
             this.pictureBox0.TabIndex = 2;
             this.pictureBox0.TabStop = false;
             this.pictureBox0.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -275,11 +276,11 @@ namespace Checkers
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox1.Location = new System.Drawing.Point(45, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(120, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox1.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox1.Size = new System.Drawing.Size(120, 107);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.SquareClickListener);
@@ -287,11 +288,11 @@ namespace Checkers
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox2.Location = new System.Drawing.Point(90, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(240, 0);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox2.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox2.Size = new System.Drawing.Size(120, 107);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -299,11 +300,11 @@ namespace Checkers
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox3.Location = new System.Drawing.Point(135, 0);
+            this.pictureBox3.Location = new System.Drawing.Point(360, 0);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox3.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox3.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox3.Size = new System.Drawing.Size(120, 107);
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.SquareClickListener);
@@ -311,11 +312,11 @@ namespace Checkers
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox4.Location = new System.Drawing.Point(180, 0);
+            this.pictureBox4.Location = new System.Drawing.Point(480, 0);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox4.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox4.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox4.Size = new System.Drawing.Size(120, 107);
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -323,11 +324,11 @@ namespace Checkers
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox5.Location = new System.Drawing.Point(225, 0);
+            this.pictureBox5.Location = new System.Drawing.Point(600, 0);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox5.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox5.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox5.Size = new System.Drawing.Size(120, 107);
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.SquareClickListener);
@@ -335,11 +336,11 @@ namespace Checkers
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox6.Location = new System.Drawing.Point(270, 0);
+            this.pictureBox6.Location = new System.Drawing.Point(720, 0);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox6.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox6.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox6.Size = new System.Drawing.Size(120, 107);
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -347,11 +348,11 @@ namespace Checkers
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox7.Location = new System.Drawing.Point(315, 0);
+            this.pictureBox7.Location = new System.Drawing.Point(840, 0);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox7.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox7.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox7.Size = new System.Drawing.Size(120, 107);
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.SquareClickListener);
@@ -359,11 +360,11 @@ namespace Checkers
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox8.Location = new System.Drawing.Point(0, 45);
+            this.pictureBox8.Location = new System.Drawing.Point(0, 107);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox8.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox8.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox8.Size = new System.Drawing.Size(120, 107);
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
             this.pictureBox8.Click += new System.EventHandler(this.SquareClickListener);
@@ -371,11 +372,11 @@ namespace Checkers
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox9.Location = new System.Drawing.Point(45, 45);
+            this.pictureBox9.Location = new System.Drawing.Point(120, 107);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox9.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox9.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox9.Size = new System.Drawing.Size(120, 107);
             this.pictureBox9.TabIndex = 0;
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -383,11 +384,11 @@ namespace Checkers
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox10.Location = new System.Drawing.Point(90, 45);
+            this.pictureBox10.Location = new System.Drawing.Point(240, 107);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox10.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox10.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox10.Size = new System.Drawing.Size(120, 107);
             this.pictureBox10.TabIndex = 0;
             this.pictureBox10.TabStop = false;
             this.pictureBox10.Click += new System.EventHandler(this.SquareClickListener);
@@ -395,11 +396,11 @@ namespace Checkers
             // pictureBox11
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox11.Location = new System.Drawing.Point(135, 45);
+            this.pictureBox11.Location = new System.Drawing.Point(360, 107);
             this.pictureBox11.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox11.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox11.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox11.Size = new System.Drawing.Size(120, 107);
             this.pictureBox11.TabIndex = 0;
             this.pictureBox11.TabStop = false;
             this.pictureBox11.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -407,11 +408,11 @@ namespace Checkers
             // pictureBox12
             // 
             this.pictureBox12.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox12.Location = new System.Drawing.Point(180, 45);
+            this.pictureBox12.Location = new System.Drawing.Point(480, 107);
             this.pictureBox12.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox12.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox12.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox12.Size = new System.Drawing.Size(120, 107);
             this.pictureBox12.TabIndex = 0;
             this.pictureBox12.TabStop = false;
             this.pictureBox12.Click += new System.EventHandler(this.SquareClickListener);
@@ -419,11 +420,11 @@ namespace Checkers
             // pictureBox13
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox13.Location = new System.Drawing.Point(225, 45);
+            this.pictureBox13.Location = new System.Drawing.Point(600, 107);
             this.pictureBox13.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox13.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox13.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox13.Size = new System.Drawing.Size(120, 107);
             this.pictureBox13.TabIndex = 0;
             this.pictureBox13.TabStop = false;
             this.pictureBox13.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -431,11 +432,11 @@ namespace Checkers
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox14.Location = new System.Drawing.Point(270, 45);
+            this.pictureBox14.Location = new System.Drawing.Point(720, 107);
             this.pictureBox14.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox14.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox14.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox14.Size = new System.Drawing.Size(120, 107);
             this.pictureBox14.TabIndex = 0;
             this.pictureBox14.TabStop = false;
             this.pictureBox14.Click += new System.EventHandler(this.SquareClickListener);
@@ -443,11 +444,11 @@ namespace Checkers
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox15.Location = new System.Drawing.Point(315, 45);
+            this.pictureBox15.Location = new System.Drawing.Point(840, 107);
             this.pictureBox15.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox15.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox15.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox15.Size = new System.Drawing.Size(120, 107);
             this.pictureBox15.TabIndex = 0;
             this.pictureBox15.TabStop = false;
             this.pictureBox15.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -455,11 +456,11 @@ namespace Checkers
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox16.Location = new System.Drawing.Point(0, 90);
+            this.pictureBox16.Location = new System.Drawing.Point(0, 214);
             this.pictureBox16.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox16.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox16.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox16.Size = new System.Drawing.Size(120, 107);
             this.pictureBox16.TabIndex = 0;
             this.pictureBox16.TabStop = false;
             this.pictureBox16.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -467,11 +468,11 @@ namespace Checkers
             // pictureBox17
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox17.Location = new System.Drawing.Point(45, 90);
+            this.pictureBox17.Location = new System.Drawing.Point(120, 214);
             this.pictureBox17.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox17.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox17.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox17.Size = new System.Drawing.Size(120, 107);
             this.pictureBox17.TabIndex = 0;
             this.pictureBox17.TabStop = false;
             this.pictureBox17.Click += new System.EventHandler(this.SquareClickListener);
@@ -479,11 +480,11 @@ namespace Checkers
             // pictureBox18
             // 
             this.pictureBox18.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox18.Location = new System.Drawing.Point(90, 90);
+            this.pictureBox18.Location = new System.Drawing.Point(240, 214);
             this.pictureBox18.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox18.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox18.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox18.Size = new System.Drawing.Size(120, 107);
             this.pictureBox18.TabIndex = 0;
             this.pictureBox18.TabStop = false;
             this.pictureBox18.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -491,11 +492,11 @@ namespace Checkers
             // pictureBox19
             // 
             this.pictureBox19.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox19.Location = new System.Drawing.Point(135, 90);
+            this.pictureBox19.Location = new System.Drawing.Point(360, 214);
             this.pictureBox19.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox19.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox19.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox19.Size = new System.Drawing.Size(120, 107);
             this.pictureBox19.TabIndex = 0;
             this.pictureBox19.TabStop = false;
             this.pictureBox19.Click += new System.EventHandler(this.SquareClickListener);
@@ -503,11 +504,11 @@ namespace Checkers
             // pictureBox20
             // 
             this.pictureBox20.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox20.Location = new System.Drawing.Point(180, 90);
+            this.pictureBox20.Location = new System.Drawing.Point(480, 214);
             this.pictureBox20.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox20.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox20.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox20.Size = new System.Drawing.Size(120, 107);
             this.pictureBox20.TabIndex = 0;
             this.pictureBox20.TabStop = false;
             this.pictureBox20.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -515,11 +516,11 @@ namespace Checkers
             // pictureBox21
             // 
             this.pictureBox21.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox21.Location = new System.Drawing.Point(225, 90);
+            this.pictureBox21.Location = new System.Drawing.Point(600, 214);
             this.pictureBox21.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox21.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox21.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox21.Size = new System.Drawing.Size(120, 107);
             this.pictureBox21.TabIndex = 0;
             this.pictureBox21.TabStop = false;
             this.pictureBox21.Click += new System.EventHandler(this.SquareClickListener);
@@ -527,11 +528,11 @@ namespace Checkers
             // pictureBox22
             // 
             this.pictureBox22.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox22.Location = new System.Drawing.Point(270, 90);
+            this.pictureBox22.Location = new System.Drawing.Point(720, 214);
             this.pictureBox22.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox22.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox22.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox22.Size = new System.Drawing.Size(120, 107);
             this.pictureBox22.TabIndex = 0;
             this.pictureBox22.TabStop = false;
             this.pictureBox22.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -539,11 +540,11 @@ namespace Checkers
             // pictureBox23
             // 
             this.pictureBox23.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox23.Location = new System.Drawing.Point(315, 90);
+            this.pictureBox23.Location = new System.Drawing.Point(840, 214);
             this.pictureBox23.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox23.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox23.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox23.Size = new System.Drawing.Size(120, 107);
             this.pictureBox23.TabIndex = 0;
             this.pictureBox23.TabStop = false;
             this.pictureBox23.Click += new System.EventHandler(this.SquareClickListener);
@@ -551,11 +552,11 @@ namespace Checkers
             // pictureBox24
             // 
             this.pictureBox24.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox24.Location = new System.Drawing.Point(0, 135);
+            this.pictureBox24.Location = new System.Drawing.Point(0, 321);
             this.pictureBox24.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox24.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox24.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox24.Size = new System.Drawing.Size(120, 107);
             this.pictureBox24.TabIndex = 0;
             this.pictureBox24.TabStop = false;
             this.pictureBox24.Click += new System.EventHandler(this.SquareClickListener);
@@ -563,11 +564,11 @@ namespace Checkers
             // pictureBox25
             // 
             this.pictureBox25.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox25.Location = new System.Drawing.Point(45, 135);
+            this.pictureBox25.Location = new System.Drawing.Point(120, 321);
             this.pictureBox25.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox25.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox25.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox25.Size = new System.Drawing.Size(120, 107);
             this.pictureBox25.TabIndex = 0;
             this.pictureBox25.TabStop = false;
             this.pictureBox25.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -575,11 +576,11 @@ namespace Checkers
             // pictureBox26
             // 
             this.pictureBox26.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox26.Location = new System.Drawing.Point(90, 135);
+            this.pictureBox26.Location = new System.Drawing.Point(240, 321);
             this.pictureBox26.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox26.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox26.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox26.Size = new System.Drawing.Size(120, 107);
             this.pictureBox26.TabIndex = 0;
             this.pictureBox26.TabStop = false;
             this.pictureBox26.Click += new System.EventHandler(this.SquareClickListener);
@@ -587,11 +588,11 @@ namespace Checkers
             // pictureBox27
             // 
             this.pictureBox27.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox27.Location = new System.Drawing.Point(135, 135);
+            this.pictureBox27.Location = new System.Drawing.Point(360, 321);
             this.pictureBox27.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox27.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox27.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox27.Size = new System.Drawing.Size(120, 107);
             this.pictureBox27.TabIndex = 0;
             this.pictureBox27.TabStop = false;
             this.pictureBox27.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -599,11 +600,11 @@ namespace Checkers
             // pictureBox28
             // 
             this.pictureBox28.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox28.Location = new System.Drawing.Point(180, 135);
+            this.pictureBox28.Location = new System.Drawing.Point(480, 321);
             this.pictureBox28.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox28.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox28.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox28.Size = new System.Drawing.Size(120, 107);
             this.pictureBox28.TabIndex = 0;
             this.pictureBox28.TabStop = false;
             this.pictureBox28.Click += new System.EventHandler(this.SquareClickListener);
@@ -611,11 +612,11 @@ namespace Checkers
             // pictureBox29
             // 
             this.pictureBox29.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox29.Location = new System.Drawing.Point(225, 135);
+            this.pictureBox29.Location = new System.Drawing.Point(600, 321);
             this.pictureBox29.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox29.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox29.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox29.Size = new System.Drawing.Size(120, 107);
             this.pictureBox29.TabIndex = 0;
             this.pictureBox29.TabStop = false;
             this.pictureBox29.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -623,11 +624,11 @@ namespace Checkers
             // pictureBox30
             // 
             this.pictureBox30.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox30.Location = new System.Drawing.Point(270, 135);
+            this.pictureBox30.Location = new System.Drawing.Point(720, 321);
             this.pictureBox30.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox30.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox30.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox30.Size = new System.Drawing.Size(120, 107);
             this.pictureBox30.TabIndex = 0;
             this.pictureBox30.TabStop = false;
             this.pictureBox30.Click += new System.EventHandler(this.SquareClickListener);
@@ -635,11 +636,11 @@ namespace Checkers
             // pictureBox31
             // 
             this.pictureBox31.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox31.Location = new System.Drawing.Point(315, 135);
+            this.pictureBox31.Location = new System.Drawing.Point(840, 321);
             this.pictureBox31.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox31.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox31.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox31.Size = new System.Drawing.Size(120, 107);
             this.pictureBox31.TabIndex = 0;
             this.pictureBox31.TabStop = false;
             this.pictureBox31.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -647,11 +648,11 @@ namespace Checkers
             // pictureBox32
             // 
             this.pictureBox32.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox32.Location = new System.Drawing.Point(0, 180);
+            this.pictureBox32.Location = new System.Drawing.Point(0, 428);
             this.pictureBox32.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox32.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox32.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox32.Size = new System.Drawing.Size(120, 107);
             this.pictureBox32.TabIndex = 0;
             this.pictureBox32.TabStop = false;
             this.pictureBox32.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -659,11 +660,11 @@ namespace Checkers
             // pictureBox33
             // 
             this.pictureBox33.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox33.Location = new System.Drawing.Point(45, 180);
+            this.pictureBox33.Location = new System.Drawing.Point(120, 428);
             this.pictureBox33.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox33.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox33.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox33.Size = new System.Drawing.Size(120, 107);
             this.pictureBox33.TabIndex = 0;
             this.pictureBox33.TabStop = false;
             this.pictureBox33.Click += new System.EventHandler(this.SquareClickListener);
@@ -671,11 +672,11 @@ namespace Checkers
             // pictureBox34
             // 
             this.pictureBox34.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox34.Location = new System.Drawing.Point(90, 180);
+            this.pictureBox34.Location = new System.Drawing.Point(240, 428);
             this.pictureBox34.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox34.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox34.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox34.Size = new System.Drawing.Size(120, 107);
             this.pictureBox34.TabIndex = 0;
             this.pictureBox34.TabStop = false;
             this.pictureBox34.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -683,11 +684,11 @@ namespace Checkers
             // pictureBox35
             // 
             this.pictureBox35.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox35.Location = new System.Drawing.Point(135, 180);
+            this.pictureBox35.Location = new System.Drawing.Point(360, 428);
             this.pictureBox35.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox35.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox35.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox35.Size = new System.Drawing.Size(120, 107);
             this.pictureBox35.TabIndex = 0;
             this.pictureBox35.TabStop = false;
             this.pictureBox35.Click += new System.EventHandler(this.SquareClickListener);
@@ -695,11 +696,11 @@ namespace Checkers
             // pictureBox36
             // 
             this.pictureBox36.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox36.Location = new System.Drawing.Point(180, 180);
+            this.pictureBox36.Location = new System.Drawing.Point(480, 428);
             this.pictureBox36.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox36.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox36.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox36.Size = new System.Drawing.Size(120, 107);
             this.pictureBox36.TabIndex = 0;
             this.pictureBox36.TabStop = false;
             this.pictureBox36.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -707,11 +708,11 @@ namespace Checkers
             // pictureBox37
             // 
             this.pictureBox37.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox37.Location = new System.Drawing.Point(225, 180);
+            this.pictureBox37.Location = new System.Drawing.Point(600, 428);
             this.pictureBox37.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox37.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox37.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox37.Size = new System.Drawing.Size(120, 107);
             this.pictureBox37.TabIndex = 0;
             this.pictureBox37.TabStop = false;
             this.pictureBox37.Click += new System.EventHandler(this.SquareClickListener);
@@ -719,11 +720,11 @@ namespace Checkers
             // pictureBox38
             // 
             this.pictureBox38.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox38.Location = new System.Drawing.Point(270, 180);
+            this.pictureBox38.Location = new System.Drawing.Point(720, 428);
             this.pictureBox38.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox38.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox38.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox38.Size = new System.Drawing.Size(120, 107);
             this.pictureBox38.TabIndex = 0;
             this.pictureBox38.TabStop = false;
             this.pictureBox38.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -731,11 +732,11 @@ namespace Checkers
             // pictureBox39
             // 
             this.pictureBox39.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox39.Location = new System.Drawing.Point(315, 180);
+            this.pictureBox39.Location = new System.Drawing.Point(840, 428);
             this.pictureBox39.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox39.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox39.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox39.Size = new System.Drawing.Size(120, 107);
             this.pictureBox39.TabIndex = 0;
             this.pictureBox39.TabStop = false;
             this.pictureBox39.Click += new System.EventHandler(this.SquareClickListener);
@@ -743,11 +744,11 @@ namespace Checkers
             // pictureBox40
             // 
             this.pictureBox40.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox40.Location = new System.Drawing.Point(0, 225);
+            this.pictureBox40.Location = new System.Drawing.Point(0, 535);
             this.pictureBox40.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox40.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox40.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox40.Size = new System.Drawing.Size(120, 107);
             this.pictureBox40.TabIndex = 0;
             this.pictureBox40.TabStop = false;
             this.pictureBox40.Click += new System.EventHandler(this.SquareClickListener);
@@ -755,11 +756,11 @@ namespace Checkers
             // pictureBox41
             // 
             this.pictureBox41.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox41.Location = new System.Drawing.Point(45, 225);
+            this.pictureBox41.Location = new System.Drawing.Point(120, 535);
             this.pictureBox41.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox41.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox41.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox41.Size = new System.Drawing.Size(120, 107);
             this.pictureBox41.TabIndex = 0;
             this.pictureBox41.TabStop = false;
             this.pictureBox41.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -767,11 +768,11 @@ namespace Checkers
             // pictureBox42
             // 
             this.pictureBox42.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox42.Location = new System.Drawing.Point(90, 225);
+            this.pictureBox42.Location = new System.Drawing.Point(240, 535);
             this.pictureBox42.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox42.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox42.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox42.Size = new System.Drawing.Size(120, 107);
             this.pictureBox42.TabIndex = 0;
             this.pictureBox42.TabStop = false;
             this.pictureBox42.Click += new System.EventHandler(this.SquareClickListener);
@@ -779,11 +780,11 @@ namespace Checkers
             // pictureBox43
             // 
             this.pictureBox43.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox43.Location = new System.Drawing.Point(135, 225);
+            this.pictureBox43.Location = new System.Drawing.Point(360, 535);
             this.pictureBox43.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox43.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox43.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox43.Size = new System.Drawing.Size(120, 107);
             this.pictureBox43.TabIndex = 0;
             this.pictureBox43.TabStop = false;
             this.pictureBox43.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -791,11 +792,11 @@ namespace Checkers
             // pictureBox44
             // 
             this.pictureBox44.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox44.Location = new System.Drawing.Point(180, 225);
+            this.pictureBox44.Location = new System.Drawing.Point(480, 535);
             this.pictureBox44.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox44.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox44.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox44.Size = new System.Drawing.Size(120, 107);
             this.pictureBox44.TabIndex = 0;
             this.pictureBox44.TabStop = false;
             this.pictureBox44.Click += new System.EventHandler(this.SquareClickListener);
@@ -803,11 +804,11 @@ namespace Checkers
             // pictureBox45
             // 
             this.pictureBox45.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox45.Location = new System.Drawing.Point(225, 225);
+            this.pictureBox45.Location = new System.Drawing.Point(600, 535);
             this.pictureBox45.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox45.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox45.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox45.Size = new System.Drawing.Size(120, 107);
             this.pictureBox45.TabIndex = 0;
             this.pictureBox45.TabStop = false;
             this.pictureBox45.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -815,11 +816,11 @@ namespace Checkers
             // pictureBox46
             // 
             this.pictureBox46.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox46.Location = new System.Drawing.Point(270, 225);
+            this.pictureBox46.Location = new System.Drawing.Point(720, 535);
             this.pictureBox46.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox46.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox46.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox46.Size = new System.Drawing.Size(120, 107);
             this.pictureBox46.TabIndex = 0;
             this.pictureBox46.TabStop = false;
             this.pictureBox46.Click += new System.EventHandler(this.SquareClickListener);
@@ -827,11 +828,11 @@ namespace Checkers
             // pictureBox47
             // 
             this.pictureBox47.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox47.Location = new System.Drawing.Point(315, 225);
+            this.pictureBox47.Location = new System.Drawing.Point(840, 535);
             this.pictureBox47.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox47.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox47.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox47.Size = new System.Drawing.Size(120, 107);
             this.pictureBox47.TabIndex = 0;
             this.pictureBox47.TabStop = false;
             this.pictureBox47.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -839,11 +840,11 @@ namespace Checkers
             // pictureBox48
             // 
             this.pictureBox48.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox48.Location = new System.Drawing.Point(0, 270);
+            this.pictureBox48.Location = new System.Drawing.Point(0, 642);
             this.pictureBox48.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox48.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox48.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox48.Size = new System.Drawing.Size(120, 107);
             this.pictureBox48.TabIndex = 0;
             this.pictureBox48.TabStop = false;
             this.pictureBox48.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -851,11 +852,11 @@ namespace Checkers
             // pictureBox49
             // 
             this.pictureBox49.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox49.Location = new System.Drawing.Point(45, 270);
+            this.pictureBox49.Location = new System.Drawing.Point(120, 642);
             this.pictureBox49.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox49.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox49.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox49.Size = new System.Drawing.Size(120, 107);
             this.pictureBox49.TabIndex = 0;
             this.pictureBox49.TabStop = false;
             this.pictureBox49.Click += new System.EventHandler(this.SquareClickListener);
@@ -863,11 +864,11 @@ namespace Checkers
             // pictureBox50
             // 
             this.pictureBox50.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox50.Location = new System.Drawing.Point(90, 270);
+            this.pictureBox50.Location = new System.Drawing.Point(240, 642);
             this.pictureBox50.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox50.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox50.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox50.Size = new System.Drawing.Size(120, 107);
             this.pictureBox50.TabIndex = 0;
             this.pictureBox50.TabStop = false;
             this.pictureBox50.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -875,11 +876,11 @@ namespace Checkers
             // pictureBox51
             // 
             this.pictureBox51.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox51.Location = new System.Drawing.Point(135, 270);
+            this.pictureBox51.Location = new System.Drawing.Point(360, 642);
             this.pictureBox51.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox51.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox51.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox51.Size = new System.Drawing.Size(120, 107);
             this.pictureBox51.TabIndex = 0;
             this.pictureBox51.TabStop = false;
             this.pictureBox51.Click += new System.EventHandler(this.SquareClickListener);
@@ -887,11 +888,11 @@ namespace Checkers
             // pictureBox52
             // 
             this.pictureBox52.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox52.Location = new System.Drawing.Point(180, 270);
+            this.pictureBox52.Location = new System.Drawing.Point(480, 642);
             this.pictureBox52.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox52.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox52.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox52.Size = new System.Drawing.Size(120, 107);
             this.pictureBox52.TabIndex = 0;
             this.pictureBox52.TabStop = false;
             this.pictureBox52.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -899,11 +900,11 @@ namespace Checkers
             // pictureBox53
             // 
             this.pictureBox53.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox53.Location = new System.Drawing.Point(225, 270);
+            this.pictureBox53.Location = new System.Drawing.Point(600, 642);
             this.pictureBox53.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox53.Name = "pictureBox53";
-            this.pictureBox53.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox53.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox53.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox53.Size = new System.Drawing.Size(120, 107);
             this.pictureBox53.TabIndex = 0;
             this.pictureBox53.TabStop = false;
             this.pictureBox53.Click += new System.EventHandler(this.SquareClickListener);
@@ -911,11 +912,11 @@ namespace Checkers
             // pictureBox54
             // 
             this.pictureBox54.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox54.Location = new System.Drawing.Point(270, 270);
+            this.pictureBox54.Location = new System.Drawing.Point(720, 642);
             this.pictureBox54.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox54.Name = "pictureBox54";
-            this.pictureBox54.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox54.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox54.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox54.Size = new System.Drawing.Size(120, 107);
             this.pictureBox54.TabIndex = 0;
             this.pictureBox54.TabStop = false;
             this.pictureBox54.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -923,11 +924,11 @@ namespace Checkers
             // pictureBox55
             // 
             this.pictureBox55.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox55.Location = new System.Drawing.Point(315, 270);
+            this.pictureBox55.Location = new System.Drawing.Point(840, 642);
             this.pictureBox55.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox55.Name = "pictureBox55";
-            this.pictureBox55.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox55.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox55.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox55.Size = new System.Drawing.Size(120, 107);
             this.pictureBox55.TabIndex = 0;
             this.pictureBox55.TabStop = false;
             this.pictureBox55.Click += new System.EventHandler(this.SquareClickListener);
@@ -935,11 +936,11 @@ namespace Checkers
             // pictureBox56
             // 
             this.pictureBox56.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox56.Location = new System.Drawing.Point(0, 315);
+            this.pictureBox56.Location = new System.Drawing.Point(0, 749);
             this.pictureBox56.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox56.Name = "pictureBox56";
-            this.pictureBox56.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox56.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox56.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox56.Size = new System.Drawing.Size(120, 107);
             this.pictureBox56.TabIndex = 0;
             this.pictureBox56.TabStop = false;
             this.pictureBox56.Click += new System.EventHandler(this.SquareClickListener);
@@ -947,11 +948,11 @@ namespace Checkers
             // pictureBox57
             // 
             this.pictureBox57.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox57.Location = new System.Drawing.Point(45, 315);
+            this.pictureBox57.Location = new System.Drawing.Point(120, 749);
             this.pictureBox57.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox57.Name = "pictureBox57";
-            this.pictureBox57.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox57.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox57.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox57.Size = new System.Drawing.Size(120, 107);
             this.pictureBox57.TabIndex = 0;
             this.pictureBox57.TabStop = false;
             this.pictureBox57.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -959,11 +960,11 @@ namespace Checkers
             // pictureBox58
             // 
             this.pictureBox58.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox58.Location = new System.Drawing.Point(90, 315);
+            this.pictureBox58.Location = new System.Drawing.Point(240, 749);
             this.pictureBox58.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox58.Name = "pictureBox58";
-            this.pictureBox58.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox58.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox58.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox58.Size = new System.Drawing.Size(120, 107);
             this.pictureBox58.TabIndex = 0;
             this.pictureBox58.TabStop = false;
             this.pictureBox58.Click += new System.EventHandler(this.SquareClickListener);
@@ -971,11 +972,11 @@ namespace Checkers
             // pictureBox59
             // 
             this.pictureBox59.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox59.Location = new System.Drawing.Point(135, 315);
+            this.pictureBox59.Location = new System.Drawing.Point(360, 749);
             this.pictureBox59.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox59.Name = "pictureBox59";
-            this.pictureBox59.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox59.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox59.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox59.Size = new System.Drawing.Size(120, 107);
             this.pictureBox59.TabIndex = 0;
             this.pictureBox59.TabStop = false;
             this.pictureBox59.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -983,11 +984,11 @@ namespace Checkers
             // pictureBox60
             // 
             this.pictureBox60.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox60.Location = new System.Drawing.Point(180, 315);
+            this.pictureBox60.Location = new System.Drawing.Point(480, 749);
             this.pictureBox60.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox60.Name = "pictureBox60";
-            this.pictureBox60.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox60.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox60.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox60.Size = new System.Drawing.Size(120, 107);
             this.pictureBox60.TabIndex = 0;
             this.pictureBox60.TabStop = false;
             this.pictureBox60.Click += new System.EventHandler(this.SquareClickListener);
@@ -995,11 +996,11 @@ namespace Checkers
             // pictureBox61
             // 
             this.pictureBox61.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox61.Location = new System.Drawing.Point(225, 315);
+            this.pictureBox61.Location = new System.Drawing.Point(600, 749);
             this.pictureBox61.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox61.Name = "pictureBox61";
-            this.pictureBox61.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox61.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox61.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox61.Size = new System.Drawing.Size(120, 107);
             this.pictureBox61.TabIndex = 0;
             this.pictureBox61.TabStop = false;
             this.pictureBox61.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -1007,11 +1008,11 @@ namespace Checkers
             // pictureBox62
             // 
             this.pictureBox62.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.pictureBox62.Location = new System.Drawing.Point(270, 315);
+            this.pictureBox62.Location = new System.Drawing.Point(720, 749);
             this.pictureBox62.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox62.Name = "pictureBox62";
-            this.pictureBox62.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox62.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox62.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox62.Size = new System.Drawing.Size(120, 107);
             this.pictureBox62.TabIndex = 0;
             this.pictureBox62.TabStop = false;
             this.pictureBox62.Click += new System.EventHandler(this.SquareClickListener);
@@ -1019,11 +1020,11 @@ namespace Checkers
             // pictureBox63
             // 
             this.pictureBox63.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox63.Location = new System.Drawing.Point(315, 315);
+            this.pictureBox63.Location = new System.Drawing.Point(840, 749);
             this.pictureBox63.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox63.Name = "pictureBox63";
-            this.pictureBox63.Padding = new System.Windows.Forms.Padding(2);
-            this.pictureBox63.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox63.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox63.Size = new System.Drawing.Size(120, 107);
             this.pictureBox63.TabIndex = 0;
             this.pictureBox63.TabStop = false;
             this.pictureBox63.Click += new System.EventHandler(this.EmptySquareClickListener);
@@ -1031,18 +1032,20 @@ namespace Checkers
             // stateLabel
             // 
             this.stateLabel.AutoSize = true;
-            this.stateLabel.Location = new System.Drawing.Point(175, 9);
+            this.stateLabel.Location = new System.Drawing.Point(467, 21);
+            this.stateLabel.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.stateLabel.Name = "stateLabel";
-            this.stateLabel.Size = new System.Drawing.Size(35, 13);
+            this.stateLabel.Size = new System.Drawing.Size(93, 32);
             this.stateLabel.TabIndex = 1;
             this.stateLabel.Text = "label1";
             this.stateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // undoButton
             // 
-            this.undoButton.Location = new System.Drawing.Point(72, 393);
+            this.undoButton.Location = new System.Drawing.Point(192, 937);
+            this.undoButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.undoButton.Name = "undoButton";
-            this.undoButton.Size = new System.Drawing.Size(75, 23);
+            this.undoButton.Size = new System.Drawing.Size(200, 55);
             this.undoButton.TabIndex = 2;
             this.undoButton.Text = "Undo";
             this.undoButton.UseVisualStyleBackColor = true;
@@ -1050,9 +1053,10 @@ namespace Checkers
             // 
             // moveAIButton
             // 
-            this.moveAIButton.Location = new System.Drawing.Point(153, 393);
+            this.moveAIButton.Location = new System.Drawing.Point(408, 937);
+            this.moveAIButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.moveAIButton.Name = "moveAIButton";
-            this.moveAIButton.Size = new System.Drawing.Size(75, 23);
+            this.moveAIButton.Size = new System.Drawing.Size(200, 55);
             this.moveAIButton.TabIndex = 3;
             this.moveAIButton.Text = "AI Move";
             this.moveAIButton.UseVisualStyleBackColor = true;
@@ -1060,9 +1064,10 @@ namespace Checkers
             // 
             // newGameButton
             // 
-            this.newGameButton.Location = new System.Drawing.Point(234, 393);
+            this.newGameButton.Location = new System.Drawing.Point(624, 937);
+            this.newGameButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.newGameButton.Name = "newGameButton";
-            this.newGameButton.Size = new System.Drawing.Size(75, 23);
+            this.newGameButton.Size = new System.Drawing.Size(200, 55);
             this.newGameButton.TabIndex = 4;
             this.newGameButton.Text = "New Game";
             this.newGameButton.UseVisualStyleBackColor = true;
@@ -1070,16 +1075,17 @@ namespace Checkers
             // 
             // BoardForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(387, 419);
+            this.ClientSize = new System.Drawing.Size(1032, 999);
             this.Controls.Add(this.newGameButton);
             this.Controls.Add(this.moveAIButton);
             this.Controls.Add(this.undoButton);
             this.Controls.Add(this.stateLabel);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "BoardForm";
-            this.Text = "BoardForm";
+            this.Text = "Checkers";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BoardForm_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BoardForm_FormClosed);
             this.tableLayoutPanel1.ResumeLayout(false);
